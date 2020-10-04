@@ -2,3 +2,35 @@
 
 ## `Watsup, the following files are pterodactyl eggs, so don't hesitate to use them.`
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Universal Discord Bot
+
+__________________________________________________________________
+
+- NodeJS
+- Java
+- Python
+
+___________________________________________________________________
+
+
+
+New eggs will arrive soon so don't hesitate to come back often and don't forget to check my social networks available on my github page
+
+
+
