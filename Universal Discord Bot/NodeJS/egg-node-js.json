@@ -1,0 +1,36 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v1"
+    },
+    "exported_at": "2020-05-18T18:07:02+02:00",
+    "name": "Node.js",
+    "author": "contact@n-heberg.fr",
+    "description": "Eggs allows you to put a discord bot that has javascript language...",
+    "image": "quay.io\/parkervcp\/pterodactyl-images:debian_nodejs-12",
+    "startup": "npm i > \/dev\/null 2>&1 && node {{SCRIPT}}",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"bot online\",\r\n    \"userInteraction\": []\r\n}",
+        "logs": "{\r\n    \"custom\": false,\r\n    \"location\": \"logs\/latest.log\"\r\n}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": "#\/bin\/ash\r\n\r\napk add --no-cache git make gcc g++ python\r\n\r\ncd \/mnt\/server\r\n\r\necho -e \"Installation des modules NodeJS\"\r\n\r\nnpm install --production discord.js fs fnt sqlite nodeactyl moment youch\r\nnpm install --save sqlite3\r\n\r\necho -e \"install complete\"\r\nexit 0",
+            "container": "node:10-alpine",
+            "entrypoint": "ash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Script Name",
+            "description": "Script name or path",
+            "env_variable": "SCRIPT",
+            "default_value": "index.js",
+            "user_viewable": 1,
+            "user_editable": 1,
+            "rules": "required|string"
+        }
+    ]
+}

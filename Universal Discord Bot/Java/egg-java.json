@@ -1,0 +1,36 @@
+{
+    "_comment": "DO NOT EDIT: FILE GENERATED AUTOMATICALLY BY PTERODACTYL PANEL - PTERODACTYL.IO",
+    "meta": {
+        "version": "PTDL_v1"
+    },
+    "exported_at": "2020-05-18T18:07:14+02:00",
+    "name": "Java",
+    "author": "contact@n-heberg.fr",
+    "description": "Eggs allows you to put a discord bot that has java language...",
+    "image": "quay.io\/pterodactyl\/core:java",
+    "startup": "jar -Dnogui=true -jar {SCRIPT}",
+    "config": {
+        "files": "{}",
+        "startup": "{\r\n    \"done\": \"bot online\",\r\n    \"userInteraction\": []\r\n}",
+        "logs": "{\r\n    \"custom\": false,\r\n    \"location\": \"logs\/latest.log\"\r\n}",
+        "stop": "^C"
+    },
+    "scripts": {
+        "installation": {
+            "script": null,
+            "container": "alpine:3.4",
+            "entrypoint": "bash"
+        }
+    },
+    "variables": [
+        {
+            "name": "Script Name",
+            "description": "Script name or path",
+            "env_variable": "SCRIPT",
+            "default_value": "main.jar",
+            "user_viewable": 1,
+            "user_editable": 1,
+            "rules": "required|string"
+        }
+    ]
+}
