@@ -5,7 +5,7 @@
     },
     "exported_at": "2020-05-18T18:07:14+02:00",
     "name": "Java",
-    "author": "contact@n-heberg.fr",
+    "author": "contact@drifthost.fr",
     "description": "Eggs allows you to put a discord bot that has java language...",
     "image": "quay.io\/pterodactyl\/core:java",
     "startup": "jar -Dnogui=true -jar {SCRIPT}",
