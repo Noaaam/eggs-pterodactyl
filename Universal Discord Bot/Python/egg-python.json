@@ -5,7 +5,7 @@
     },
     "exported_at": "2020-05-18T18:07:15+02:00",
     "name": "Python",
-    "author": "contact@n-heberg.fr",
+    "author": "contact@drifthost.fr",
     "description": "Eggs allows you to put a discord bot that has python language...",
     "image": "quay.io\/parkervcp\/pterodactyl-images:alpine_python-3.6",
     "startup": "python3.6 {{SCRIPT}}",
