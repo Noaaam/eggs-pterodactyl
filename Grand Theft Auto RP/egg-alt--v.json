@@ -5,7 +5,7 @@
     },
     "exported_at": "2020-02-19T21:48:36-05:00",
     "name": "alt:V",
-    "author": "contact@n-heberg.fr",
+    "author": "contact@drifthost.fr",
     "description": "alt:V Multiplayer a third-party multiplayer modification for Grand Theft Auto: V",
     "image": "quay.io/parkervcp/pterodactyl-images:debian_dotnet",
     "startup": "sleep 2 && ./altv-server",
