@@ -5,7 +5,7 @@
     },
     "exported_at": "2020-05-18T18:07:02+02:00",
     "name": "Node.js",
-    "author": "contact@n-heberg.fr",
+    "author": "contact@drifthost.fr",
     "description": "Eggs allows you to put a discord bot that has javascript language...",
     "image": "quay.io\/parkervcp\/pterodactyl-images:debian_nodejs-12",
     "startup": "npm i > \/dev\/null 2>&1 && node {{SCRIPT}}",
